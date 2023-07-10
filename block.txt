@@ -1,0 +1,48 @@
+#
+#   DShield.org Recommended Block List
+#    (c) $year DShield.org
+#   some rights reserved. Details http://creativecommons.org/licenses/by-nc-sa/2.5/
+#   use on your own risk. No warranties implied.
+#   primary URL: https://feeds.dshield.org/block.txt
+#     PGP Sign.: https://feeds.dshield.org/block.txt.asc
+#
+#   comments: systems@isc.sans.edu
+#    updated: 2023-07-10T01:45:18.977709
+#
+#    This list summarizes the top 20 attacking class C (/24) subnets
+#   over the last three days. The number of 'attacks' indicates the
+#   number of targets reporting scans from this subnet.
+#
+#
+#    Columns (tab delimited):
+#
+#    (1) start of netblock
+#    (2) end of netblock
+#    (3) subnet (/24 for class C)
+#    (4) number of targets scanned
+#    (5) name of Network
+#    (6) Country
+#    (7) contact email address
+#
+#    If a range is assigned to multiple users, the first one is listed.
+#
+94.102.61.0	94.102.61.4	24	767	INT-NETWORK	SC	abuse@ipvolume.net
+162.216.149.0	162.216.149.42	24	733	GOOGLE	US	network-abuse@google.com
+162.216.150.0	162.216.150.245	24	731	GOOGLE	US	network-abuse@google.com
+35.203.210.0	35.203.210.117	24	729	GOOGLE	US	network-abuse@google.com
+35.203.211.0	35.203.211.22	24	729	GOOGLE	US	network-abuse@google.com
+198.235.24.0	198.235.24.234	24	678	GOOGLE-CLOUD-PLATFORM	US	None
+176.111.174.0	176.111.174.112	24	674	-	-	-
+167.248.133.0	167.248.133.147	24	671	CENSYS-ARIN-03	US	None
+205.210.31.0	205.210.31.221	24	667	GOOGLE-CLOUD-PLATFORM	US	None
+89.248.165.0	89.248.165.252	24	666	INT-NETWORK	SC	abuse@ipvolume.net
+89.248.163.0	89.248.163.116	24	654	INT-NETWORK	SC	abuse@ipvolume.net
+167.94.138.0	167.94.138.108	24	649	CENSYS-ARIN-01	US	None
+193.163.125.0	193.163.125.208	24	619	CYBER-CASA	GB	>>UNKNOWN<<
+167.94.146.0	167.94.146.24	24	609	CENSYS-ARIN-02	US	None
+183.136.225.0	183.136.225.9	24	605	CHINANET-BACKBONE No.31,Jin-rong Street	CN	anti-spam@ns.chinanet.cn.net
+193.35.18.0	193.35.18.183	24	592	-	-	-
+84.54.51.0	84.54.51.248	24	572	TIER-NET	US	None
+167.94.145.0	167.94.145.81	24	568	CENSYS-ARIN-02	US	None
+45.128.232.0	45.128.232.80	24	556	PUREVOLTAGE-INC	US	admin@purevoltage.com
+65.49.1.0	65.49.1.44	24	553	HURRICANE	US	abuse@he.net
