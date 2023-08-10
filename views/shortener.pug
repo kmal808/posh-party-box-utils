@@ -7,7 +7,7 @@ block content
   .card.rounded-10.pb-4.pt-2.mt-4.px-5.mx-auto
     .card-body
     input(type='hidden', name='_csrf', value=_csrf)
-    label.col-form-label.d-block(for='name') Enter the link you want to shorten
+    label.col-form-label.d-block(for='name') Enter the link you would like to be shortened
       span(style={color: 'red'}) *
     input.form-control.mb-3#urlInput(type='url', name='longUrl', placeholder='https://portal.ehawaii.gov/residents/newcomers-guide/#becomeAResidentOfHawaii', autofocus, required)
     .alert.alert-danger.invisible.d-none#error-message
