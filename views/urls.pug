@@ -5,9 +5,9 @@ block head
 block content
   .pb-2.mt-2
     if user.profile.name == ''
-      h3 Welcome #{user.email}
+      h3 Aloha 👋 #{user.email}
     else
-      h3 Welcome #{user.profile.name}
+      h3 Aloha 👋 #{user.profile.name}
     p Here are previous URLs you have shortened.
     .d-flex.justify-content-end
       a(href='/urls/' class='fas fa-redo text-dark text-decoration-none mx-2' title="Reset to default")
