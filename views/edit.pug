@@ -8,9 +8,9 @@ block content
     .card-body
       form(method='POST' action=`/urls/${links.id}` data-id=`${links.id}`)
         label.col-form-label.d-block(for='name') Enter the link you want to shorten
-        input.form-control.mb-3(type='url', name='longUrl', placeholder='https://portal.ehawaii.gov/residents/newcomers-guide/#becomeAResidentOfHawaii', autofocus, required value=`${links.longUrl}`)
+        input.form-control.mb-3(type='url', name='longUrl', placeholder='Example: https://poshpartyboxco.com/collections/floral-party-box', autofocus, required value=`${links.longUrl}`)
         .alert.alert-danger.invisible.d-none#error-message
-        label.col-form-label.d-block(for='name') Customize your link
+        label.col-form-label.d-block(for='name') Customize your URL
         input.form-control.mb-3(type='text', name='aliasUrl', placeholder='NewcomersGuide', autofocus, value=`${links.slug}`)
         button.btn.btn-primary.w-100#updateEditBtn(type='submit')
           i.far.fa-envelope.fa-sm
