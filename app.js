@@ -155,7 +155,7 @@ app.use(
 app.use(
 	'/webfonts',
 	express.static(
-		path.join(__dirname, 'node_modules/@fortawesome/fontawesome-free/webfonts'),
+		path.join(__dirname, 'node_modules/@fontawesome/fontawesome-free/webfonts'),
 		{ maxAge: 31557600000 }
 	)
 )
